@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "EDT Geii Tours",
+    "slug": "edt-geii-tours",
+    "version": "1.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C5C4C5"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-foreground.png",
+        "backgroundColor": "#C5C4C5"
+      },
+      "package": "fr.doodzprog.edtgeii"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "827a6064-6742-4be4-9a84-ccaf6d2c8026"
+      }
+    }
+  }
+}
